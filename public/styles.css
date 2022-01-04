@@ -1,0 +1,28 @@
+root {
+    --primary: black;
+    --secondary: #25265e;
+    --flashNewsBackground: #f8d7da;
+    --flashNewsHeading: #721c24;
+}
+
+@font-face {
+    font-family: sharpSansBold;
+    src:url("/fonts/SharpSansBold.otf");
+}
+
+@font-face {
+    font-family: euclidCircularBMedium;
+    src:url("/fonts/EuclidCircularBMedium.ttf");
+}
+
+body {
+    font-family: euclidCircularBMedium;
+    color: var(--secondary);
+}
+
+h1 {
+    width:700px;
+    margin:auto;
+    color: var(--secondary);
+    text-align: center;
+}
